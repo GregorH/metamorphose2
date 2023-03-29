@@ -82,6 +82,7 @@ def usage():
     print("                    en_US")
     print("                    fr")
     print("                    es")
+    print("                    de")
     print()
     print("If no other options are given, you may specify a path to open:")
     print("$ metamorphose2 /srv/samba/Windows Likes Spaces")

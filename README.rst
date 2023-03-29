@@ -42,6 +42,7 @@ These are the command line options::
                       en_US
                       fr
                       es
+                      de
 
 If no other options are given, you may specify a path to open::
 

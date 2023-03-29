@@ -25,7 +25,7 @@ languages = (
     #('ar', u'العربية', 'sa'),
     #('ca', u'Català', 'es_ct'),
     #('da', u'Dansk', 'dk'),
-    #('de', u'Deutsch', 'de'),
+    ('de', u'Deutsch', 'de'),
     #('el', u'Ελληνικά', 'gr'),
     ('en_US', u'US English', 'us'),
     ('es', u'Español', 'es'),
@@ -49,7 +49,8 @@ languages = (
 
 class LangSelect(wx.Dialog):
     def __init_sizer(self):
-        optionsSizer = wx.FlexGridSizer(rows=3, cols=2, hgap=2, vgap=10)
+        # For more languages increase the value of 'row'
+        optionsSizer = wx.FlexGridSizer(rows=4, cols=2, hgap=2, vgap=10)
 
         # add languages to sizer
         for lang_info in languages:

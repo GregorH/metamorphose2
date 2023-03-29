@@ -427,7 +427,7 @@ class MainWindow(wx.Frame):
         # reference:
         locales = {
             #u'ar' : (wx.LANGUAGE_ARABIC, u'ar_SA.UTF-8'),
-            #u'de' : (wx.LANGUAGE_GERMAN, u'de_DE.UTF-8'),
+            u'de' : (wx.LANGUAGE_GERMAN, u'de_DE.UTF-8'),
             #u'el' : (wx.LANGUAGE_GREEK, u'el_GR.UTF-8'),
             #u'en_GB' : (wx.LANGUAGE_ENGLISH_UK, u'en_GB.UTF-8'),
             u'en_US': (wx.LANGUAGE_ENGLISH_US, u'en_US.UTF-8'),
